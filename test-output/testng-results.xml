@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-24T13:09:56 IST" name="Default suite" finished-at="2024-06-24T13:10:28 IST" duration-ms="31955">
+    <groups>
+    </groups>
+    <test started-at="2024-06-24T13:09:56 IST" name="Default test" finished-at="2024-06-24T13:10:28 IST" duration-ms="31955">
+      <class name="test.booknowtest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.booknowtest@42a48628]" started-at="2024-06-24T13:09:56 IST" name="setup" finished-at="2024-06-24T13:09:58 IST" duration-ms="2393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="urlloading()[pri:0, instance:test.booknowtest@42a48628]" started-at="2024-06-24T13:09:58 IST" name="urlloading" finished-at="2024-06-24T13:10:09 IST" duration-ms="10273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlloading -->
+        <test-method signature="contents()[pri:0, instance:test.booknowtest@42a48628]" started-at="2024-06-24T13:10:09 IST" name="contents" finished-at="2024-06-24T13:10:28 IST" depends-on-methods="test.booknowtest.urlloading" duration-ms="19179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contents -->
+      </class> <!-- test.booknowtest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
